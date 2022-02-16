@@ -11,6 +11,7 @@
 		B3B56E4327BCD0620047262A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B56E4227BCD0620047262A /* ContentView.swift */; };
 		B3B56E4527BCD0640047262A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B56E4427BCD0640047262A /* Assets.xcassets */; };
 		B3B56E4827BCD0640047262A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B56E4727BCD0640047262A /* Preview Assets.xcassets */; };
+		B3B56E4F27BCD79F0047262A /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B56E4E27BCD79F0047262A /* SettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		B3B56E4227BCD0620047262A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B3B56E4427BCD0640047262A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3B56E4727BCD0640047262A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3B56E4E27BCD79F0047262A /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				B3B56E4227BCD0620047262A /* ContentView.swift */,
 				B3B56E4427BCD0640047262A /* Assets.xcassets */,
 				B3B56E4627BCD0640047262A /* Preview Content */,
+				B3B56E4E27BCD79F0047262A /* SettingView.swift */,
 			);
 			path = CriptCurrencySWIFTUIPractice;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3B56E4F27BCD79F0047262A /* SettingView.swift in Sources */,
 				B3B56E4327BCD0620047262A /* ContentView.swift in Sources */,
 				B3B56E4127BCD0620047262A /* CriptCurrencySWIFTUIPracticeApp.swift in Sources */,
 			);
