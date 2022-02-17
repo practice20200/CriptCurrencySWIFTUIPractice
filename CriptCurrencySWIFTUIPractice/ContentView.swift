@@ -14,7 +14,7 @@ struct ContentView: View {
         ScrollView(.vertical, showsIndicators: false){
             HStack{
                 Image("currencies")
-                Text("Currencies")
+                Text("Currencies".localized())
             }
             
             ForEach(0..<CollectionViewCell.row){
@@ -31,7 +31,7 @@ struct ContentView: View {
             Spacer()
             HStack{
                 Image("coins")
-                Text("Coins")
+                Text("Coins".localized())
             }
             ForEach(0..<3){
                 i in HStack{
@@ -48,7 +48,7 @@ struct ContentView: View {
             Spacer()
             HStack{
                 Image("gold")
-                Text("Gold")
+                Text("Gold".localized())
             }
             HStack{
             ForEach(0..<CollectionViewCell.column){

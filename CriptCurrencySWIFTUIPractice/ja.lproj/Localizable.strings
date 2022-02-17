@@ -1,0 +1,52 @@
+/* 
+  Localizable.strings
+  CriptCurrencySWIFTUIPractice
+
+  Created by Apple New on 2022-02-16.
+  
+*/
+
+
+
+//========index
+"Currencies" = "通貨";
+"Coins" = "コイン";
+"Gold" = "金";
+
+
+
+
+//=======currency
+//currencies
+
+
+//Coin
+"Azadi" = "アザディー";
+"Emami" = "エマミー";
+"%Azadi" = "アザディー";
+"%Azadi" = "アザディー";
+"Gerami" = "ジェラミ";
+
+//Gold
+"Gram" = "グラム";
+"Mithqal" = "ミスカール";
+
+
+
+
+//========== language
+"English" = "英語";
+"Japanese" = "日本語";
+
+
+
+//========== Settings
+"All" = "全部";
+"Currencies" = "通貨";
+"Coins" = "コイン";
+"Gold" = "金";
+"Change Language" = "言語変換";
+
+
+//=========Change Languale
+"Select a language" = "言語を選択してください";
