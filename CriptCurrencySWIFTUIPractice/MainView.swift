@@ -11,20 +11,23 @@ struct MainView: View {
     var body: some View {
         NavigationView{
             VStack{
-        }
-        .navigationTitle("Chand")
-        .toolbar {
-            ToolbarItem(placement: .navigationBarTrailing) {
-                Button {
-                
-                } label: {
-                    Image(systemName: "gear")
-                }
+                Text("Date")
+                .navigationTitle("Chand")
+                .toolbar {
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        Button {
+                        
+                        } label: {
+                            Image(systemName: "gear")
+                            
+                        }
 
+                    }
+                }
+                ContentView()
             }
         }
-        }
-        ContentView()
+        
     }
 }
 

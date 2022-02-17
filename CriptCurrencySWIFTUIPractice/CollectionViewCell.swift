@@ -20,14 +20,18 @@ struct CollectionViewCell: View {
             VStack{
                 HStack{
                     Image("america")
-                        .frame(width: 30, height: 30, alignment: .topLeading)
+                        .frame(width: 20, height: 20, alignment: .bottomTrailing)
+
                     
                     VStack{
-                        Text("US Dollar").font(.title3)
+                        Text("US Dollar").font(.system(size: 14))
                             .foregroundColor(.black)
-                        Text("USD").font(.title3)
+                        Text("USD").font(.system(size: 15))
                             .foregroundColor(.black)
                     }.fixedSize()
+//                        .padding(10)
+                    
+                    
                 }
                     Text("26,500").font(.title2)
                         .foregroundColor(.black)
