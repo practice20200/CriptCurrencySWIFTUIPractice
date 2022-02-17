@@ -23,9 +23,11 @@ struct CollectionViewCell: View {
                         .frame(width: 30, height: 30, alignment: .topLeading)
                     
                     VStack{
-                        Text("US Dollar").font(.title3)
+                        Text("US Dollar")
                             .foregroundColor(.black)
-                        Text("USD").font(.title3)
+                        font(.body)
+                        Text("USD")
+                        font(.body)
                             .foregroundColor(.black)
                     }.fixedSize()
                 }
