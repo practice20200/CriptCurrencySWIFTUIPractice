@@ -43,6 +43,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B3185C1B27BE2A8500330F66 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B3CE028227BE28E800233E72 /* Utils */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B3185C1C27BE2A9700330F66 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B3185C1D27BE2AA000330F66 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B3B56E4E27BCD79F0047262A /* SettingView.swift */,
+				B3B56E5027BCD9A30047262A /* MainView.swift */,
+				B3CE027827BE040F00233E72 /* CollectionViewCell.swift */,
+				B3B56E4227BCD0620047262A /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B3185C1E27BE2AA600330F66 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		B3B56E3427BCD0620047262A = {
 			isa = PBXGroup;
 			children = (
@@ -62,15 +95,13 @@
 		B3B56E3F27BCD0620047262A /* CriptCurrencySWIFTUIPractice */ = {
 			isa = PBXGroup;
 			children = (
+				B3185C1E27BE2AA600330F66 /* Models */,
+				B3185C1D27BE2AA000330F66 /* Views */,
+				B3185C1C27BE2A9700330F66 /* Controllers */,
+				B3185C1B27BE2A8500330F66 /* Resources */,
 				B3B56E4027BCD0620047262A /* CriptCurrencySWIFTUIPracticeApp.swift */,
-				B3B56E4227BCD0620047262A /* ContentView.swift */,
 				B3B56E4427BCD0640047262A /* Assets.xcassets */,
 				B3B56E4627BCD0640047262A /* Preview Content */,
-				B3B56E4E27BCD79F0047262A /* SettingView.swift */,
-				B3B56E5027BCD9A30047262A /* MainView.swift */,
-				B3CE027827BE040F00233E72 /* CollectionViewCell.swift */,
-				B3CE027E27BE206400233E72 /* Localizable.strings */,
-				B3CE028027BE215400233E72 /* Extension.swift */,
 			);
 			path = CriptCurrencySWIFTUIPractice;
 			sourceTree = "<group>";
@@ -81,6 +112,15 @@
 				B3B56E4727BCD0640047262A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B3CE028227BE28E800233E72 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B3CE028027BE215400233E72 /* Extension.swift */,
+				B3CE027E27BE206400233E72 /* Localizable.strings */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
