@@ -9,7 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-       Text("Hello")
+        ScrollView(.vertical, showsIndicators: false){
+            ForEach(0..<CollectionViewCell.row){
+                i in HStack{
+                ForEach(0..<CollectionViewCell.column){
+                            j in
+                    CollectionViewCell().onTapGesture {
+                        print("\(i),\(j)")
+                    }
+                    }
+                }
+            }
+        }
     }
 }
 

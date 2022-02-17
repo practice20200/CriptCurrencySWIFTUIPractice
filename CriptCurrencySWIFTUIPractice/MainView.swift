@@ -16,7 +16,7 @@ struct MainView: View {
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
                 Button {
-                    
+                
                 } label: {
                     Image(systemName: "gear")
                 }
@@ -24,6 +24,7 @@ struct MainView: View {
             }
         }
         }
+        ContentView()
     }
 }
 
