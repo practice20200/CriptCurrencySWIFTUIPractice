@@ -11,7 +11,8 @@ struct MainView: View {
     var body: some View {
         NavigationView{
             VStack{
-                Text("Date")
+                Text("Date").frame(maxWidth: .infinity, alignment: .trailing)
+                    .padding(.trailing)
                 .navigationTitle("Chand")
                 .toolbar {
                     ToolbarItem(placement: .navigationBarTrailing) {
@@ -24,7 +25,7 @@ struct MainView: View {
 
                     }
                 }
-                GoldView()
+                ContentView()
             }
         }
         

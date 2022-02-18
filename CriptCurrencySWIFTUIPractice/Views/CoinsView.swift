@@ -15,6 +15,8 @@ struct CoinsView: View {
                 Image("gold")
                 Text("Gold".localized())
             }
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .padding(.leading)
             HStack{
                 ForEach(0..<CollectionViewCell.column){
                             j in

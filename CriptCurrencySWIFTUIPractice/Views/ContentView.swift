@@ -15,7 +15,8 @@ struct ContentView: View {
             HStack{
                 Image("currencies")
                 Text("Currencies".localized())
-            }
+                
+            }.frame(maxWidth: .infinity, alignment: .leading)
             
             ForEach(0..<CollectionViewCell.row){
                 i in HStack{
@@ -33,6 +34,8 @@ struct ContentView: View {
                 Image("coins")
                 Text("Coins".localized())
             }
+            .frame(maxWidth: .infinity, alignment: .leading)
+            
             ForEach(0..<3){
                 i in HStack{
                 ForEach(0..<CollectionViewCell.column){
@@ -50,6 +53,7 @@ struct ContentView: View {
                 Image("gold")
                 Text("Gold".localized())
             }
+            .frame(maxWidth: .infinity, alignment: .leading)
             HStack{
             ForEach(0..<CollectionViewCell.column){
                         j in
