@@ -19,6 +19,7 @@
 		B3D8057E27C05DFB002DF5D1 /* CurrenciesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D8057D27C05DFB002DF5D1 /* CurrenciesView.swift */; };
 		B3D8058027C05E1A002DF5D1 /* CoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D8057F27C05E1A002DF5D1 /* CoinsView.swift */; };
 		B3D8058227C05E2E002DF5D1 /* GoldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D8058127C05E2E002DF5D1 /* GoldView.swift */; };
+		B3D8058427C06E7B002DF5D1 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D8058327C06E7B002DF5D1 /* DateFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		B3D8057D27C05DFB002DF5D1 /* CurrenciesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesView.swift; sourceTree = "<group>"; };
 		B3D8057F27C05E1A002DF5D1 /* CoinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsView.swift; sourceTree = "<group>"; };
 		B3D8058127C05E2E002DF5D1 /* GoldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldView.swift; sourceTree = "<group>"; };
+		B3D8058327C06E7B002DF5D1 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 			children = (
 				B3CE028027BE215400233E72 /* Extension.swift */,
 				B3CE027E27BE206400233E72 /* Localizable.strings */,
+				B3D8058327C06E7B002DF5D1 /* DateFormatter.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				B3B56E4F27BCD79F0047262A /* SettingView.swift in Sources */,
 				B3B56E5127BCD9A30047262A /* MainView.swift in Sources */,
 				B3D8058027C05E1A002DF5D1 /* CoinsView.swift in Sources */,
+				B3D8058427C06E7B002DF5D1 /* DateFormatter.swift in Sources */,
 				B3D8057E27C05DFB002DF5D1 /* CurrenciesView.swift in Sources */,
 				B3B56E4327BCD0620047262A /* ContentView.swift in Sources */,
 				B3B56E4127BCD0620047262A /* CriptCurrencySWIFTUIPracticeApp.swift in Sources */,

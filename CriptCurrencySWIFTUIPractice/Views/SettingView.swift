@@ -23,6 +23,10 @@ struct SettingView: View {
             }
         }
     }
+    // ===== Functionsa ======
+    func tableViewhandler(){
+        
+    }
 }
 
 struct SettingItemView: View{
