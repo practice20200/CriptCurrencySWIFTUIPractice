@@ -69,9 +69,9 @@
 		B3185C1D27BE2AA000330F66 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B3D8058527C073AA002DF5D1 /* Cell */,
 				B3B56E4E27BCD79F0047262A /* SettingView.swift */,
 				B3B56E5027BCD9A30047262A /* MainView.swift */,
-				B3CE027827BE040F00233E72 /* CollectionViewCell.swift */,
 				B3B56E4227BCD0620047262A /* ContentView.swift */,
 				B3D8057D27C05DFB002DF5D1 /* CurrenciesView.swift */,
 				B3D8057F27C05E1A002DF5D1 /* CoinsView.swift */,
@@ -133,6 +133,14 @@
 				B3D8058327C06E7B002DF5D1 /* DateFormatter.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		B3D8058527C073AA002DF5D1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B3CE027827BE040F00233E72 /* CollectionViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

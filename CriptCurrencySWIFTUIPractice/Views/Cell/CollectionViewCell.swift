@@ -21,6 +21,8 @@ struct CollectionViewCell: View {
                 HStack{
                     Image("america")
                         .frame(width: 20, height: 20, alignment: .bottomTrailing)
+                        .padding(.leading)
+                        .padding(.top)
 
                     
                     VStack{
