@@ -14,9 +14,11 @@ struct CollectionViewCell: View {
     
     var body: some View {
         ZStack{
-            RoundedRectangle(cornerRadius: 15).frame(width: width, height: width)
-                .foregroundColor(.blue)
+            RoundedRectangle(cornerRadius: 25).frame(width: width, height: width)
+                .foregroundColor(.white)
                 .scaleEffect()
+                .shadow(color: .secondary, radius: 10, x: 10, y: 0)
+
             VStack{
                 HStack{
                     Image("america")

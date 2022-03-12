@@ -59,13 +59,6 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		B3185C1C27BE2A9700330F66 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
 		B3185C1D27BE2AA000330F66 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,7 +101,6 @@
 			children = (
 				B3185C1E27BE2AA600330F66 /* Models */,
 				B3185C1D27BE2AA000330F66 /* Views */,
-				B3185C1C27BE2A9700330F66 /* Controllers */,
 				B3185C1B27BE2A8500330F66 /* Resources */,
 				B3B56E4027BCD0620047262A /* CriptCurrencySWIFTUIPracticeApp.swift */,
 				B3B56E4427BCD0640047262A /* Assets.xcassets */,
