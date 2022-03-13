@@ -12,6 +12,9 @@ struct CollectionViewCell: View {
     static let row = 9
     let width = (UIScreen.main.bounds.width/2)-20
     
+    let data = CurrencyDataProvider.dataProvider()
+    let dataGold = CurrencyDataProvider.onlyGoldDataProvider()
+    
     var body: some View {
         ZStack{
             RoundedRectangle(cornerRadius: 25).frame(width: width, height: width)
@@ -21,6 +24,8 @@ struct CollectionViewCell: View {
 
             VStack{
                 HStack{
+                    
+                    
                     Image("america")
                         .frame(width: 20, height: 20, alignment: .bottomTrailing)
                         .padding(.leading)

@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 struct CurrencyModel {
+    var id : Int
     var currencyIcon : UIImage?
     var fullCurrencyTitle : String
     var currencyTitle : String
